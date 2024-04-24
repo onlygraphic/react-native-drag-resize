@@ -734,8 +734,8 @@ DragResizeBlock.defaultProps = {
   minH: 50,
   axis: AXIS_ALL,
   limitation: {
-    x: -250,
-    y: -250,
+    x: 0,
+    y: 0,
     w: Dimensions.get('window').width,
     h: Dimensions.get('window').height,
   },
